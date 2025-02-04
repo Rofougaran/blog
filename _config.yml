@@ -1,7 +1,6 @@
 # Site settings
 title:          نیمه شب
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
 url:            "https://rofougaran.github.io"
 
 # Google Analytics
