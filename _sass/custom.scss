@@ -1,0 +1,16 @@
+html, body {
+  direction: rtl;
+}
+
+// Override specific styles for RTL
+.post-list {
+  text-align: right;
+}
+
+// For example, reversing float for elements
+.left {
+  float: right;
+}
+.right {
+  float: left;
+}
