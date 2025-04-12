@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@latest/dist/Vazir.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@latest/dist/Vazir.woff') format('woff');
+}
+
+body, p, div, span, h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+:lang(fa), :lang(ar), :lang(ur), *:has([lang="fa"]), *:has([lang="ar"]), *:has([lang="ur"]) {
+    font-family: "Vazir", sans-serif !important;
+}
+
 html, body {
   direction: rtl;
 }
